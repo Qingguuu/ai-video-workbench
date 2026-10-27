@@ -25,7 +25,7 @@
 | | |
 |:---:|:---:|
 | ![叙述桌定场](assets/storyboard/scene-01.png) | ![前倾分享](assets/storyboard/scene-02.png) |
-| ![装配天线](assets/storyboard/scene-03.png) | ![装配保险丝](assets/storyboard/scene-04.png) |
+| ![预测下一个字](assets/storyboard/scene-03.png) | ![装配保险丝](assets/storyboard/scene-04.png) |
 
 ## 系统架构
 
