@@ -24,8 +24,8 @@
 
 | | |
 |:---:|:---:|
-| ![工位整理表格](assets/storyboard/scene-01.jpg) | ![答案在工程师](assets/storyboard/scene-02.jpg) |
-| ![裸机装配](assets/storyboard/scene-03.jpg) | ![两个物种](assets/storyboard/scene-04.jpg) |
+| ![叙述桌定场](assets/storyboard/scene-01.png) | ![前倾分享](assets/storyboard/scene-02.png) |
+| ![装配天线](assets/storyboard/scene-03.png) | ![装配保险丝](assets/storyboard/scene-04.png) |
 
 ## 系统架构
 
