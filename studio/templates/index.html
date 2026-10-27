@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="health-banner" class="banner hidden"></div>
+
+<section class="card">
+  <h1>一键制作视频</h1>
+  <p class="hint">填写主题后自动完成：分镜生成 → 生图 → 配音 → 字幕 → 视频合成（同一时刻仅 1 个制作任务）</p>
+  <form id="create-form">
+    <label>主题 <span class="req">*</span> <span id="topic-count" class="muted">0/200</span></label>
+    <textarea id="topic" rows="3" maxlength="200" placeholder="例：为什么 AI 有时会一本正经地胡说八道"></textarea>
+    <label>补充说明（选填）</label>
+    <textarea id="note" rows="2" placeholder="角度、风格、必须出现的信息点等"></textarea>
+    <button type="submit" id="submit-btn">开始制作</button>
+    <span id="create-error" class="error"></span>
+  </form>
+</section>
+
+<section class="card">
+  <h2>或上传本地视频直接发布</h2>
+  <p class="hint">mp4 / mov，不超过 2GB；上传后进入与生成视频相同的预览与发布流程</p>
+  <input type="file" id="upload-file" accept=".mp4,.mov">
+  <div id="upload-progress" class="hidden"><div class="bar"><div id="upload-bar"></div></div><span id="upload-text"></span></div>
+  <span id="upload-error" class="error"></span>
+</section>
+{% endblock %}

@@ -1,0 +1,24 @@
+# ===== 密钥绝不入库 =====
+.env
+
+# ===== 大型参考项目（不在本仓库展示范围）=====
+Easel/
+
+# ===== 运行期数据（任务库 / 登录态 / 生成产物）=====
+studio/data/
+imagegen/outputs/
+imagegen/build/
+*.db
+*.sqlite*
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+
+# ===== 根目录历史副本（以 studio/publish/ 为准）=====
+/douyin_publish.py
+
+# ===== 系统文件 =====
+Thumbs.db
+Desktop.ini
+.git.bak/

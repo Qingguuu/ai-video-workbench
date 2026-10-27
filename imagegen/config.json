@@ -1,0 +1,17 @@
+{
+  "provider": "volcano",
+  "providers": {
+    "bailian": { "model": "qwen-image-3.0", "size": "864*1536" },
+    "volcano": { "model": "doubao-seedream-5-0-flash-260915", "size": "1440x2560" }
+  },
+  "n": 1,
+  "prompt_extend": true,
+  "watermark": false,
+  "tts": { "provider": "edge", "voice": "zh-CN-YunxiNeural", "rate": "+40%", "gap": 0.25,
+           "replacements": { "AI": "欸爱", "DeepSeek": "迪普西克", "AGI": "欸计入" } },
+  "video": { "fps": 24, "width": 1440, "height": 2560, "subtitle_max_chars": 14, "subtitle_margin_v": 320 },
+  "publish": { "platform": "douyin", "browser": "firefox", "auto_click_publish": false },
+  "monitor": { "platform": "douyin", "data_dir": "data/monitor" },
+  "negative_prompt": "3d渲染, 写实照片, 真实质感, 复杂细节背景, 渐变阴影, 多余彩色元素, 文字, 水印",
+  "style_anchor": "极简扁平插画风，白色大圆头火柴人，点状眼睛，直线嘴，黑色细线条四肢，头顶一根短小绿色卷须：茎短直，高度约为头颅直径的三分之一，顶端只有一个小而紧凑的卷圈（全画面唯一彩色元素），卷须始终长在头颅正顶部并随头部朝向，不因躺卧等姿势偏向重力方向；场景取自真实生活空间（如卧室床上、书桌前、街头、便利店），墙面与背景用大面积纯色（浅蓝/深蓝/紫任选其一，可配明黄色光束），家具与道具为带黑色描边的浅灰色几何体，画面疏朗留白；竖版 9:16，情绪平静略带冷幽默"
+}

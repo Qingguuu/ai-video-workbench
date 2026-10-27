@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}任务列表 - 视频工作台{% endblock %}
+{% block content %}
+<section class="card">
+  <h1>任务列表</h1>
+  <table id="task-table">
+    <thead>
+      <tr><th>主题</th><th>类型</th><th>状态</th><th>创建时间</th><th></th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <p id="empty-hint" class="hint hidden">还没有任务，去<a href="/">创作一个</a>吧。</p>
+</section>
+{% endblock %}
